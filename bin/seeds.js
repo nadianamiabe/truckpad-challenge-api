@@ -10,6 +10,7 @@ const drivers = [
     name: 'teste',
     state: 'São Paulo',
     city: 'São Paulo',
+    phone: '2158485260',
     address: {
       state: 'São Paulo',
       country: 'Brasil',
@@ -19,6 +20,12 @@ const drivers = [
       streetName: 'Avenida Brasil',
     },
     documents: [
+      {
+        country: 'São Paulo',
+        number: '0000000000',
+        docType: 'CNH',
+        category: 'A',
+      },
       {
         country: 'Brasil',
         number: '23584851562',
